@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.example_workflowDemande-core_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.csys.template.domain.TypeDemande</class>
+    <class>com.csys.template.domain.Utilisateur</class>
+    <class>com.csys.template.domain.AccessModuleGrp</class>
+    <class>com.csys.template.domain.Menu</class>
+    <class>com.csys.template.domain.AccessButtonUser</class>
+    <class>com.csys.template.domain.Button</class>
+    <class>com.csys.template.domain.AccessMenuUser</class>
+    <class>com.csys.template.domain.Clinique</class>
+    <class>com.csys.template.domain.AccessControl</class>
+    <class>com.csys.template.domain.Module</class>
+    <class>com.csys.template.domain.AccessModuleUser</class>
+    <class>com.csys.template.domain.AccessButtonGrp</class>
+    <class>com.csys.template.domain.Revision</class>
+    <class>com.csys.template.domain.AccessMenuGrp</class>
+    <class>com.csys.template.domain.Groupe</class>
+    <class>com.csys.template.domain.GroupUser</class>
+    <class>com.csys.template.domain.DetailsDelegationAccessButton</class>
+    <class>com.csys.template.domain.DetailsDelegationAccessMenu</class>
+    <class>com.csys.template.domain.DetailsDelegationAccess</class>
+    <class>com.csys.template.domain.DelegationAccess</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://DESKTOP-A2L6T6L\SQL2019;databaseName=gestion_acces;encrypt=true;trustServerCertificate=true;"/>
+      <property name="javax.persistence.jdbc.user" value="sa"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value="12345"/>
+    </properties>
+  </persistence-unit>
+</persistence>

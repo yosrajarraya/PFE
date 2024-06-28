@@ -1,0 +1,90 @@
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background: rgba(191, 191, 191, 0.15); /* Couleur de fond de la barre latérale */
+    color: #000000; /* Couleur du texte de la barre latérale */
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    margin-top: 20px; /* Activer le défilement vertical si nécessaire */
+  }
+  
+  .sidebar input[type="text"] {
+    width: calc(100% - 40px); /* Ajuste la largeur du champ de recherche */
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background-color: #bdbdbd; /* Couleur de fond du champ de filtre */
+    border: none;
+    color: #000000; /* Couleur du texte du champ de filtre */
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #1293b8; /* Couleur de fond au survol */
+  }
+  
+  .dashboard {
+    margin-left: 250px; /* Laisse de la place pour la barre latérale */
+    padding: 20px; /* Ajoute un peu d'espace intérieur */
+  }
+  
+  .modulesContainer {
+    display: flex; /* Utilise Flexbox */
+    justify-content: space-between; /* Aligne les enfants horizontalement avec de l'espace entre eux */
+    padding: 20px; /* Ajoute un peu de marge autour du contenu */
+  }
+  
+  #listModules {
+    direction: ltr;
+    background: #eee; /* Couleur de fond */
+  }
+  
+  .tile {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    margin: 4px;
+    position: relative;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .tile a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .tile i, .tile img {
+    line-height: 120px;
+  }
+  
+  .tile i, .tile .title {
+    line-height: 14px;
+    transition: all 0.5s ease;
+  }
+  
+  .tile i {
+    font-size: 40px;
+  }
+  
+  .tile .title {
+    font-size: 11px;
+    color: black;
+  }
+  
+  
